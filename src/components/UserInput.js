@@ -44,4 +44,5 @@ class UserInput extends Component {
   }
 }
 
+// wrapping a component in 'connect' will pass _one_ function to props 'dispatch()'
 export default connect()(UserInput);
